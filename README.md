@@ -2,5 +2,7 @@ This is a simple command-line weather application written in C++ that uses the O
 
 Requirements
 C++17 or newer
+
 libcurl
+
 nlohmann/json
