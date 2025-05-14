@@ -1,3 +1,5 @@
+//Author: Dean Ricco
+//Last Updated: 5/14/25
 // Standard libraries
 #include <iostream>
 #include <string>
@@ -66,7 +68,7 @@ void displayWeather(const string& city)
         if (data.contains("main")) 
         {
             cout << "Weather in " << data["name"] << ":\n";
-            cout << "  Temperature: " << data["main"]["temp"] << "°C\n";
+            cout << "  Temperature: " << data["main"]["temp"] << "Â°C\n";
             cout << "  Humidity: " << data["main"]["humidity"] << "%\n";
             cout << "  Condition: " << data["weather"][0]["description"] << "\n";
         }
